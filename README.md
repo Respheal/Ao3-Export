@@ -6,7 +6,7 @@ As a note, I exclusively use the Windows version of Scrivener (version 3.1.5.1).
 
 ### Preview
 
-Example exported text (as it would appear on Ao3 with the "reversi" site skin): [https://respheal.github.io/Ao3-Export/](https://respheal.github.io/Scrivener-Ao3-Export/)
+Example exported text (as it would appear on Ao3 with the "reversi" site skin): https://respheal.github.io/Scrivener-Ao3-Export/
 
 ## Notes
 
