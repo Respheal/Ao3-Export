@@ -1,0 +1,78 @@
+#workskin blockquote {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#workskin .text-center {
+  text-align: center;
+}
+
+#workskin .italic {
+  font-style: italic;
+}
+
+#workskin .sh {
+  font-family: 'Courier New', monospace;
+}
+
+#workskin .blue {
+  color: #3089E8;
+}
+
+#workskin .fadetoblue {
+  background: linear-gradient(to bottom right, currentColor, rgba(48, 137, 232, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#workskin .green {
+  color: #36AF4A;
+}
+
+#workskin .fadetogreen {
+  background: linear-gradient(to bottom right, currentColor, rgba(54, 175, 74, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#workskin .red {
+  color: #E24658;
+}
+
+#workskin .fadetored {
+  background: linear-gradient(to bottom right, currentColor, rgba(226, 70, 88, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#workskin .vio {
+  color: #AB63CC;
+}
+
+#workskin .fadetovio {
+  background: linear-gradient(to bottom right, currentColor, rgba(171, 99, 204, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#workskin .colors {
+  background: linear-gradient(to right, #E24658 0%, #AB63CC 34%, #3089E8 66%, #36AF4A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#workskin .colors-minus-red {
+  background: linear-gradient(to right, #AB63CC 0%, #3089E8 50%, #36AF4A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#workskin hr {
+  border: none;
+}
+
+#workskin hr::before {
+  content: '△ △ △';
+  display: block;
+  text-align: center;
+}
