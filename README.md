@@ -13,6 +13,7 @@ Example exported text (as it would appear on Ao3 with the "reversi" site skin): 
 - Not all CSS style wizardry works in Scrivener, particularly the text gradient styles used in the workskin. They will be output in the compiled .txt document, even though they're not visibly formatted in Scrivener.
 - Always check the compiled HTML! Save your work as a draft in Ao3 to preview before publishing!
 - The styling for this workskin and template is relatively specific to my fandoms, so feel free to adjust as you please. The post linked in [Credits](#credits) is very good for explaining how to create/modify Scrivener compilation formats.
+- The option to wrap italicized text in `<em>` tags only works on italic text without character styles (i.e. not using any of the colored text options). I've added additional styles that are both colored _and_ italicized, labeled as "Internal [Color]". For other styled text that should also be italicized, you'll need to check the export manually.
 
 ## How to Use
 
@@ -21,11 +22,8 @@ Example exported text (as it would appear on Ao3 with the "reversi" site skin): 
    2. In the Project Templates window, click the "Options" dropdown and then "Import Templates..."
    3. Import [Ao3.scrivtemplate](Ao3.scrivtemplate) as a project template.
    4. Create a new project with that template. It will automatically generate all the styles required for the export, as well as a couple example folders/text files.
-   5. Navigate to File → Compile... (Ctrl + Shift + E)
-   6. Click the cogwheel icon in the bottom-left to bring up a dropdown menu. Select "Import Formats..."
-   7. Import [Ao3.scrformat](Ao3.scrformat) as a compilation format.
-   8. In the "Compile For:" box at the top, switch to "Plain Text (.txt)". The Ao3 Project Format should be listed in the txt formats.
-   9. As a test, hit "Compile" and choose where to save the output text file. It should generate a .txt file in the chosen location with CSS classes based on the body styles (Example file: [exported_text.txt](exported_text.txt))
+   5. In the "Compile For:" box at the top, switch to "Plain Text (.txt)". The Ao3 Project Format should be listed in the txt formats.
+   6. As a test, hit "Compile" and choose where to save the output text file. It should generate a .txt file in the chosen location with CSS classes based on the body styles (Example file: [exported_text.txt](exported_text.txt))
 3. On Ao3:
    1. Import [workskin.css](workskin.css) into a new workskin on Ao3: https://archiveofourown.org/faq/tutorial-creating-a-work-skin?language_id=en
    2. Apply the workskin to the chosen work: https://archiveofourown.org/faq/tutorial-creating-a-work-skin?language_id=en#wksknapply
